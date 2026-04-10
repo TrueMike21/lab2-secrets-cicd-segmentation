@@ -71,4 +71,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-``
+
+# Temporary data preparation scripts
+temp/
