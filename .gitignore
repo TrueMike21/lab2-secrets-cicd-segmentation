@@ -1,0 +1,74 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.eggs/
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Environment Variables (Secrets)
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Data (DO NOT COMMIT DATA)
+# ===============================
+data/raw/
+data/processed/
+
+# ===============================
+# Model Artifacts
+# ===============================
+*.pt
+*.pth
+*.onnx
+checkpoints/
+models/
+
+# ===============================
+# Logs & Outputs
+# ===============================
+logs/
+outputs/
+runs/
+
+# ===============================
+# Reports & Generated Figures
+# ===============================
+reports/figures/*.png
+reports/figures/*.jpg
+
+# ===============================
+# Docker
+# ===============================
+docker/*.log
+
+# ===============================
+# CI / Testing
+# ===============================
+.pytest_cache/
+coverage/
+.coverage
+
+# ===============================
+# OS / Editor Files
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+``
