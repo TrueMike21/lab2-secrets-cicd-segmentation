@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  segmentation:
+    image: lab2-segmentation
+    container_name: lab2-segmentation
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python scripts/evaluate.py

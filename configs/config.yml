@@ -1,0 +1,16 @@
+training:
+  image_size: 256
+  batch_size: 2
+  epochs: 10
+  learning_rate: 0.001
+
+model:
+  type: "MiniUNet"
+  input_channels: 3
+  output_channels: 1
+
+paths:
+  images_dir: "data/raw/aerial_images"
+  masks_dir: "data/processed/masks"
+  splits_dir: "data/processed/splits"
+  output_model: "model.pt"
