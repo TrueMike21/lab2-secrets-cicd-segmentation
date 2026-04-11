@@ -11,7 +11,7 @@ IMAGES_DIR = "data/raw/aerial_images"
 ANNOTATIONS_DIR = "data/raw/annotations"   # GeoJSON files
 OUTPUT_MASKS_DIR = "data/processed/masks"
 
-IMAGE_EXT = ".jpg"  # or .png
+IMAGE_EXT = ".png"  # or .jpg
 
 
 def create_mask(image_shape, polygons):
